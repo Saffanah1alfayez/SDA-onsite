@@ -1,6 +1,7 @@
 package HomeWork.day03;
 
 import org.checkerframework.checker.units.qual.K;
+import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -38,9 +39,10 @@ Close driver.
     }
 
 
-    @BeforeClass
+    @AfterClass
     public static void taerdown () {
-        //driver.quit();
+        driver.quit();
+
     }
     @Test
     public void teat() {

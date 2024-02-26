@@ -41,7 +41,9 @@ public class sulymanexample {
 
     public void deleteButtons (int number0fButton) {
         WebElement button =driver.findElement(By.xpath("//*[.='Add Element']"));
-        for (int i= 20;  i>number0fButton; i--  ){
+        for (int i= 5;  i>number0fButton; i--  ){
+
+            button.click();
 
         }
 
