@@ -42,11 +42,6 @@ public class Homework {
 
         //3.Print the result number.
 
-
-
-
-
     }
-
 
 }

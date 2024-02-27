@@ -49,7 +49,6 @@ public class challeng1 {
         String actualUrl3 = driver.getCurrentUrl();
         assertEquals( expectedUr2 , actualUrl2);
 
-
     }
 
 }
